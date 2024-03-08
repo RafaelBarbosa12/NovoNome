@@ -27,6 +27,7 @@ export default class MainScene extends Phaser.Scene {
     }    
 
     create() {
+        scene.sys.game.device.os.android
         // Trasição de fade in para quando a cena iniciar
         this.cameras.main.fadeIn(1000, 0, 0, 0);
         // Inicializa a cena
